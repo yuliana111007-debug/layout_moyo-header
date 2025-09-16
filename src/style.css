@@ -3,10 +3,7 @@
   --color-black: #000;
 }
 
-html {
-  box-sizing: border-box;
-}
-
+html,
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
@@ -20,6 +17,7 @@ body {
 }
 
 .header {
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -75,12 +73,12 @@ body {
 }
 
 .logo {
-  display: block;
+  display: flex;
   align-items: center;
 }
 
 .logo__img {
-  display: flex;
+  display: block;
   height: 40px;
   width: 40px;
 }
