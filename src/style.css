@@ -1,11 +1,10 @@
 :root {
-  --color-blue:#00ACDC;
+  --color-blue: #00acdc;
   --color-black: #000;
 }
 
 html {
   box-sizing: border-box;
-
 }
 
 body {
@@ -17,8 +16,7 @@ body {
   font-size: 14px;
   line-height: 16px;
   color: #000;
-  font-variation-settings:
-    "width" 100;
+  font-variation-settings: 'width' 100;
 }
 
 .header {
@@ -86,8 +84,3 @@ body {
   height: 40px;
   width: 40px;
 }
-
-
-
-
-
